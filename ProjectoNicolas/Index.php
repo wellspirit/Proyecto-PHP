@@ -5,12 +5,12 @@
 $s=false;
 include('/capa/ValidarSessio.php');
 $entra=ValidarSessio();
-include('/capa/Login.php');
+include('/capa/Login.php');/*
 if ($entra){
 	header('Location: capa/MenuInicial.php');
 }else if (isset($_POST['login'])){	
 	echo("Dades incorrectes");
-}
+}*/
 ?>
 </body>
 </html>
